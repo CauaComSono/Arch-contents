@@ -15,6 +15,16 @@ O estilo arquitetural client-server é um paradigma que distribui funcionalidade
 
 ### Thin-Client vs Fat-Client (Thick Client)
   Em um modelo de thin-client, a maior parte do processamento e armazenamento é feita no servidor, com o cliente focando apenas na interface do usuário, já no Fat-Client o cliente também executa uma parte significativa da lógica da aplicação 
-  ![imagem](https://www.researchgate.net/publication/323458047/figure/fig3/AS:1027333616058371@1621946829406/Service-oriented-rendering-approaches-thin-clients-vs-thick-clients.ppm)
   ![imagem](https://www.baeldung.com/wp-content/uploads/sites/4/2023/04/thin_thick.drawio-1.png)
 
+  ### Contextos de aplicação
+  Aplicações web e sistemas de banco de dados são exemplos típicos de arquiteturas client-server.
+
+  Normalmente combinado com outros estilos, Component-based, layered e utilizado em padrões arquiteturais como MVC.
+---
+## Component-Based
+Fowler descreve que Component-Based Architecture como uma abordagem para organizar sistemas de software em componentes reutilizáveis, que podem ser desenvolvidos e implantados de forma independente (Muito utilizado no Front-End)
+
+### Principais benefícios
+Reutilização: Componentes bem definidos podem ser reutilizados em diferentes sistemas, reduzindo o tempo de desenvolvimento e os custos
+Facilidade de Manutenção: A modularidade dos componentes facilita a manutenção e a evolução do sistema, permitindo que componentes individuais sejam atualizados ou substituídos sem afetar o restante do sistema.
