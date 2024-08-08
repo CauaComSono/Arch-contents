@@ -21,6 +21,7 @@ O estilo arquitetural client-server é um paradigma que distribui funcionalidade
   ## Contextos de aplicação
   Aplicações web e sistemas de banco de dados são exemplos típicos de arquiteturas client-server.
   Normalmente combinado com outros estilos, Component-based, layered e utilizado em padrões arquiteturais como MVC.
+  
 ---
 ## Component-Based
 Fowler descreve que Component-Based Architecture como uma abordagem para organizar sistemas de software em componentes reutilizáveis, que podem ser desenvolvidos e implantados de forma independente (Muito utilizado no Front-End)
