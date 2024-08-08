@@ -15,6 +15,7 @@ O estilo arquitetural client-server é um paradigma que distribui funcionalidade
 
 ### Thin-Client vs Fat-Client (Thick Client)
   Em um modelo de thin-client, a maior parte do processamento e armazenamento é feita no servidor, com o cliente focando apenas na interface do usuário, já no Fat-Client o cliente também executa uma parte significativa da lógica da aplicação 
+  
   ![imagem](https://www.baeldung.com/wp-content/uploads/sites/4/2023/04/thin_thick.drawio-1.png)
 
   ### Contextos de aplicação
