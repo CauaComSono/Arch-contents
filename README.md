@@ -18,7 +18,7 @@ O estilo arquitetural client-server é um paradigma que distribui funcionalidade
   
   ![imagem](https://www.baeldung.com/wp-content/uploads/sites/4/2023/04/thin_thick.drawio-1.png)
 
-  ### Contextos de aplicação
+  ## Contextos de aplicação
   Aplicações web e sistemas de banco de dados são exemplos típicos de arquiteturas client-server.
   Normalmente combinado com outros estilos, Component-based, layered e utilizado em padrões arquiteturais como MVC.
 ---
