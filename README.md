@@ -37,4 +37,15 @@ Facilidade de Manutenção: A modularidade dos componentes facilita a manutenç�
 - Sistema de gerenciamento de conteúdo(CMS) - WordPress, Drupal.
 - Componentes em aplicações web
 - E Microserviços?
-  
+   No livro "Building Microservices: Designing Fine-Grained Systems", Sam Newman argumenta que os microsserviços são uma extensão natural dos princípios de Component-Based Architecture, aplicada ao desenvolvimento de sistemas distribuídos modernos.
+
+Citação: "Microservices are a form of component-based architecture where the components are services that are independently deployableand scalable."
+---
+## Layerd & N-Tiers
+### Lyered
+  É uma abordagem onde o sistema é organizado em camadas,  cada uma com responsabilidades específicas e interações bem definidas. Este estilo promove a separação de preocupações, facilitando o desenvolvimento, a manutenção e a evolução do software.
+  Fowler descreve a arquitetura em camadas como um padrão estrutural comum em aplicações empresariais, dividindo a
+aplicação em camadas como apresentação, aplicação, domínio e infraestrutura. Ele defende padrões específicos que se encaixam
+na arquitetura em camadas, como "Presentation Layer," "Domain Layer" e "Data Source Layer".
+
+Em resumo, vai possuir uma interação com o usuário, seja ela qual for, vai possuir um domínio e vai ter uma camada de acesso a dados. 
