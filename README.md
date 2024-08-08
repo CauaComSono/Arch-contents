@@ -29,7 +29,7 @@ Reutilização: Componentes bem definidos podem ser reutilizados em diferentes s
 Facilidade de Manutenção: A modularidade dos componentes facilita a manutenção e a evolução do sistema, permitindo que componentes individuais sejam atualizados ou substituídos sem afetar o restante do sistema.
 ---
 ## Exemplos de _Component-based_
-- Sistema de gestão empresarial (ERP) - ![Monólito modular](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software) (Bem estruturado, pode durar anos)
+- Sistema de gestão empresarial (ERP) - [Monólito modular](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software) (Bem estruturado, pode durar anos)
 - Plataforma de comércio eletrônico - Magento, Shopify.
 - Sistema de gerenciamento de conteúdo(CMS) - WordPress, Drupal.
 - Componentes em aplicações web
