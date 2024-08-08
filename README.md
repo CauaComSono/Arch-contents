@@ -39,7 +39,7 @@ Facilidade de Manutenção: A modularidade dos componentes facilita a manutenç�
 - E Microserviços?
    No livro "Building Microservices: Designing Fine-Grained Systems", Sam Newman argumenta que os microsserviços são uma extensão natural dos princípios de Component-Based Architecture, aplicada ao desenvolvimento de sistemas distribuídos modernos.
 
-Citação: "Microservices are a form of component-based architecture where the components are services that are independently deployableand scalable."
+  Citação: "Microservices are a form of component-based architecture where the components are services that are independently deployableand scalable."
 ---
 ## Layerd & N-Tiers
 ### Lyered
@@ -48,9 +48,9 @@ Citação: "Microservices are a form of component-based architecture where the c
 aplicação em camadas como apresentação, aplicação, domínio e infraestrutura. Ele defende padrões específicos que se encaixam
 na arquitetura em camadas, como "Presentation Layer," "Domain Layer" e "Data Source Layer".
 
-Em resumo, vai possuir uma interação com o usuário, seja ela qual for, vai possuir um domínio e vai ter uma camada de acesso a dados.
+  Em resumo, vai possuir uma interação com o usuário, seja ela qual for, vai possuir um domínio e vai ter uma camada de acesso a dados.
 ---
 ## N-Tiers
-Refere-se à separação física das diferentes camadas da aplicação, onde cada nível pode ser distribuído em diferentes máquinas ou servidores. Esse estilo é focado na distribuição e escalabilidade do sistema.
+  Refere-se à separação física das diferentes camadas da aplicação, onde cada nível pode ser distribuído em diferentes máquinas ou servidores. Esse estilo é focado na distribuição e   escalabilidade do sistema.
 ---
 A separação física permite que cada nível seja escalado de forma independente, aumentando a capacidade do sistema de lidar com uma maior carga de trabalho.
