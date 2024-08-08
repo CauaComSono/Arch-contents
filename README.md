@@ -19,7 +19,6 @@ O estilo arquitetural client-server é um paradigma que distribui funcionalidade
 
   ### Contextos de aplicação
   Aplicações web e sistemas de banco de dados são exemplos típicos de arquiteturas client-server.
-
   Normalmente combinado com outros estilos, Component-based, layered e utilizado em padrões arquiteturais como MVC.
 ---
 ## Component-Based
@@ -28,3 +27,10 @@ Fowler descreve que Component-Based Architecture como uma abordagem para organiz
 ### Principais benefícios
 Reutilização: Componentes bem definidos podem ser reutilizados em diferentes sistemas, reduzindo o tempo de desenvolvimento e os custos
 Facilidade de Manutenção: A modularidade dos componentes facilita a manutenção e a evolução do sistema, permitindo que componentes individuais sejam atualizados ou substituídos sem afetar o restante do sistema.
+---
+## Exemplos de _Component-based_
+- Sistema de gestão empresarial (ERP) - Monólito modular
+- Plataforma de comércio eletrônico - Magento, Shopify.
+- Sistema de gerenciamento de conteúdo(CMS) - WordPress, Drupal.
+- Componentes em aplicações web
+- E Microserviços?
