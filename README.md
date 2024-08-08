@@ -49,8 +49,11 @@ aplicação em camadas como apresentação, aplicação, domínio e infraestrutu
 na arquitetura em camadas, como "Presentation Layer," "Domain Layer" e "Data Source Layer".
 
   Em resumo, vai possuir uma interação com o usuário, seja ela qual for, vai possuir um domínio e vai ter uma camada de acesso a dados.
+  
 ---
 ## N-Tiers
+
   Refere-se à separação física das diferentes camadas da aplicação, onde cada nível pode ser distribuído em diferentes máquinas ou servidores. Esse estilo é focado na distribuição e   escalabilidade do sistema.
+  
 ---
 A separação física permite que cada nível seja escalado de forma independente, aumentando a capacidade do sistema de lidar com uma maior carga de trabalho.
