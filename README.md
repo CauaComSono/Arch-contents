@@ -57,3 +57,7 @@ na arquitetura em camadas, como "Presentation Layer," "Domain Layer" e "Data Sou
   
 ---
 A separação física permite que cada nível seja escalado de forma independente, aumentando a capacidade do sistema de lidar com uma maior carga de trabalho.
+
+---
+# Tier, layer?
+
