@@ -80,4 +80,4 @@ Se refere a uma divisão lógica da sua aplicação, sendo normalmente executada
 - Event Consumers (Assinantes): Recebem e processam os eventos.
 - Event Channel (Broker de Mensagem): Middleware que gerencia a distribuição de eventos dos publicadores para os assinantes
 - Event Processors: Componentes que processam eventos e podem gerar novos eventos.
-Exemplo [10 exemplos de utilização de EDA no setor de logística](https://nexocode.com/blog/posts/event-driven-architecture-examples-in-logistics-apache-kafka-to-handle-supply-chain-network/) (Utilizando o Apache Kafka)
+  Exemplo: [10 exemplos de utilização de EDA no setor de logística](https://nexocode.com/blog/posts/event-driven-architecture-examples-in-logistics-apache-kafka-to-handle-supply-chain-network/) (Utilizando o Apache Kafka)
