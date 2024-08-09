@@ -5,7 +5,7 @@ Uma arquitetura é a estrutura global (Que emgloba todas as arquiteturas)
 
 ---
 
-**O que é Desing?** *O design é o micro, como estruturar as classes, já a arquitetura é o macro*
+**O que é Design?** *O design é o micro, como estruturar as classes, já a arquitetura é o macro*
 
 ---
 ## Quais são os estilos arquiteturais globais?
@@ -60,4 +60,24 @@ A separação física permite que cada nível seja escalado de forma independent
 
 ---
 # Tier, layer?
+Em discussões de arquitetura de três camadas(tier), o nível é frequentemente usado de forma intercambiável e equivocadamente pela camada, como um 'nível de apresentação' ou 'nível lógico de negócios'. Não são o mesmo!
 
+## Tier(Nível)
+Refere-se normalmente a uma divisão física do software executada em infraestrutura separada das outras divisões.
+
+## Layer(Camada)
+Se refere a uma divisão lógica da sua aplicação, sendo normalmente executada em uma única infra e processos distintos.
+
+---
+
+## Event-Driven-Architeture
+
+### Event-Drive-Achitetura (EDA)
+
+É um estilo arquitetetural em que os componentes do sistema se comunicão através de geração e manipulação de eventos. Um evento é uma mudança significativa de estado ou ocorrência que pode ser capturada e respondida por outros componentes do sistema.
+
+- Event Producers (Publicadores): Geram e emitem eventos.
+- Event Consumers (Assinantes): Recebem e processam os eventos.
+- Event Channel (Broker de Mensagem): Middleware que gerencia a distribuição de eventos dos publicadores para os assinantes
+- Event Processors: Componentes que processam eventos e podem gerar novos eventos.
+Exemplo [10 exemplos de utilização de EDA no setor de logística](https://nexocode.com/blog/posts/event-driven-architecture-examples-in-logistics-apache-kafka-to-handle-supply-chain-network/) (Utilizando o Apache Kafka)
