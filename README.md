@@ -80,4 +80,22 @@ Se refere a uma divisão lógica da sua aplicação, sendo normalmente executada
 - Event Consumers (Assinantes): Recebem e processam os eventos.
 - Event Channel (Broker de Mensagem): Middleware que gerencia a distribuição de eventos dos publicadores para os assinantes
 - Event Processors: Componentes que processam eventos e podem gerar novos eventos.
+  
   Exemplo: [10 exemplos de utilização de EDA no setor de logística](https://nexocode.com/blog/posts/event-driven-architecture-examples-in-logistics-apache-kafka-to-handle-supply-chain-network/) (Utilizando o Apache Kafka)
+  
+---
+### Mikroernel
+Estilo arquitetural que busca manter o núcleo do sistema o mais simples e reduzido possível, delegando a maioria das funcionalidades para módulos ou serviços externos adicionados ao núcleo.
+
+### Características:
+  - Núcleo Mínimo: Apenas as funcionalidades essenciais.
+  - Serviços e Módulos: Funcionalidades adicionais.
+  - Comunicação: Normalmente feita por meio de chamadas de sistema ou mensagens.
+
+Exemplos:
+Sistemas operacionais: Minix, QNX.
+FrameWorks: Eclipse IDE.
+
+---
+### Citação
+_"The microkernel architecture style involves designing a minimal core system with additional features provided by separate modules or services. This approach is considered a style because it defines a high-level organization of components and their interactions, rather than a specific implementation pattern."_  (Software Architecture in Practice, P. 207)
