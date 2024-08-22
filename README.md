@@ -110,3 +110,4 @@ _"The microkernel architecture style involves designing a minimal core system wi
  - Desenvolvimento e escabilidade (Maior serviço)
  - Descrentralização
 
+![imagem](https://middleware.io/wp-content/uploads/2021/09/How-Microservices-architecture-works-1024x786.jpg)
