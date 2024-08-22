@@ -110,4 +110,8 @@ _"The microkernel architecture style involves designing a minimal core system wi
  - Desenvolvimento e escabilidade (Maior serviço)
  - Descrentralização
 
+   O API gateway é basicamente o "Porteiro" sabendo onde cada microserviço está e sabe o ip deles
+   Ele fica responsável por saber qual microserviço irá chamar.
 ![imagem](https://middleware.io/wp-content/uploads/2021/09/How-Microservices-architecture-works-1024x786.jpg)
+
+
