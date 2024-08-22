@@ -158,3 +158,7 @@ _"The Clean Architecture is an architectural style that can be applied to a wide
 Foi proposta por Alistair Cockburn, visa criar sistemas de software que sejam altamente desecoplados e testáveis, permitindo que as partes centrais da aplicação permaneçam independentes de suas interfaces de entrada e saída.
 
 ![imagem](https://miro.medium.com/v2/resize:fit:720/format:webp/1*aD3zDFzcF5Y2_27dvU213Q.png)
+
+---
+### Comparação entre estilos (Clean Arch x Hexagonal x Onion)
+Layered é criticada por focar em banco de dados, causando dependências transitivas, limites confusos e dificuldades na manutenção e testes. Já a arquitetura hexagonal prioriza a lógica de negócio, desenvolvendo-a antes da persistência dos dados. Ela se adapta melhor a aplicativos complexos com componentes adicionais, como APIs REST, evitando dependências excessivas e duplicação da lógica de negócios.
