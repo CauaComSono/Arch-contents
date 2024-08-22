@@ -105,7 +105,7 @@ _"The microkernel architecture style involves designing a minimal core system wi
 É um estilo arquitetural que estrutura uma aplicação como um conjunto de pequenos serviços independentes, cada um executando um processo único e comunicando-se por meio de APIs bem definidas. Cada microserviços é desenvolvido, implantado e escalado de forma independente, permitindo uma maior flexibilidade e agilidade no desenvolvimento e na manutenção do software.
 
 ### Características:
- - Desenvolvimento independente (Maior serviço)
+ - Desenvolvimento independente (Maior serviço) (De times também)
  - Desenvolvimento poliglota
  - Desenvolvimento e escabilidade (Maior serviço)
  - Descrentralização
@@ -115,7 +115,9 @@ _"The microkernel architecture style involves designing a minimal core system wi
    Também faz o _reverse Proxy_ que ele pega a requisição que está caindo nele e joga para o microserviço correto.
 
    - Cada microserviço tem um banco de dado segregado.
-     
+
+   - Maior ponto negativo é complexidade.
+   
 ![imagem](https://middleware.io/wp-content/uploads/2021/09/How-Microservices-architecture-works-1024x786.jpg)
 
 ---
@@ -128,3 +130,31 @@ _"The microkernel architecture style involves designing a minimal core system wi
     [Repo Usando MicroServiços](https://github.com/Sandrolaxx/dfmicroservices)
     
     [4 Exemplos de MicroServiços](https://blog.dreamfactory.com/microservices-examples)
+
+---
+## Pipes e Filters
+Organiza o sistema como uma série de filtros conectadas por pipes (tubos). Cada filtro é responsável por processar dados, enquanto os pipes transportam os dados entre os filtros. Este estilo é ideal para sistemas que processam dados em etapas sequenciais, como pipelines de processamento de dados. Exemplo classico é o shell do linux: $ ls | grep b | sort -r | tee arquivo.out | wc -l
+
+---
+## Representational State Transfer (REST)
+É um esilo arquitetural para sistemas distribuídos que utiliza o protocolo HTTP e opera sobre os conceitos de recursos e representações.
+
+Em REST, os recursos são identificados por URLs e manipulados usando métodos HTTP.
+
+---
+## Service_oriented Architecture (SOA): 
+Estilo arquitetural que organiza o sistema como um conjunto de serviços independentes que se comunicam entre si por meio de interfaces bem definidas. Cada serviço é responsável por uma parte específica da funcionalidade do sistema e pode ser acessado remotamente por outros serviços ou aplicações. Possuem o mesmo banco e são uma parte completa do domínio.
+
+---
+# Clean Arch & Hexagonal
+
+## Arquitetura Limpa
+Este estilo de arquitetura enfatiza a separação de preocupações e a independência dos frameworks, interfaces de usuário, bancos de dados e outros detalhes externos. Podemos considerar como um avanço da onion architeture.
+
+_"The Clean Architecture is an architectural style that can be applied to a wide range of applications. It emphasizes the separation of concerns, making sure that the business rules are isolated from frameworks, user interfaces, and external agencies"._ (Clean Architecture: A Craftsman's Guide to Software Structure and Design, p. 18).
+
+---
+## Hexagonal-Ports and Adapters
+Foi proposta por Alistair Cockburn, visa criar sistemas de software que sejam altamente desecoplados e testáveis, permitindo que as partes centrais da aplicação permaneçam independentes de suas interfaces de entrada e saída.
+
+![imagem](https://miro.medium.com/v2/resize:fit:720/format:webp/1*aD3zDFzcF5Y2_27dvU213Q.png)
