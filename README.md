@@ -112,6 +112,16 @@ _"The microkernel architecture style involves designing a minimal core system wi
 
    O API gateway é basicamente o "Porteiro" sabendo onde cada microserviço está e sabe o ip deles
    Ele fica responsável por saber qual microserviço irá chamar.
+   Também faz o _reverse Proxy_ que ele pega a requisição que está caindo nele e joga para o microserviço correto.
+
+   - Cada microserviço tem um banco de dado segregado.
+     
 ![imagem](https://middleware.io/wp-content/uploads/2021/09/How-Microservices-architecture-works-1024x786.jpg)
 
-
+---
+## Trade-Offs
+  - Complexidade do gerenciamento
+  - Latência na comunicação entre microserviços
+  - Consistência de dados
+  - Custos operacionais e segurança
+    [Repo Usando MicroServiços] (https://github.com/Sandrolaxx/dfmicroservices)
