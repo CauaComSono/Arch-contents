@@ -99,3 +99,14 @@ FrameWorks: Eclipse IDE.
 ---
 ### Citação
 _"The microkernel architecture style involves designing a minimal core system with additional features provided by separate modules or services. This approach is considered a style because it defines a high-level organization of components and their interactions, rather than a specific implementation pattern."_  (Software Architecture in Practice, P. 207)
+
+---
+## MicroServices
+É um estilo arquitetural que estrutura uma aplicação como um conjunto de pequenos serviços independentes, cada um executando um processo único e comunicando-se por meio de APIs bem definidas. Cada microserviços é desenvolvido, implantado e escalado de forma independente, permitindo uma maior flexibilidade e agilidade no desenvolvimento e na manutenção do software.
+
+### Características:
+ - Desenvolvimento independente (Maior serviço)
+ - Desenvolvimento poliglota
+ - Desenvolvimento e escabilidade (Maior serviço)
+ - Descrentralização
+
