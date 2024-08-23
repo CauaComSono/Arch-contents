@@ -196,8 +196,8 @@ Temos de levar em conta o problema que queremos resolver, budget do projeto, sen
 ferramenta de gestão de projeto, o que seria
 interessante ter nela? 
 
-O budget para implementar é relativamente baixo 
-Deve permitir adicionar novas funcionalidades 
+O budget para implementar é relativamente baixo
+Deve permitir adicionar novas funcionalidades
 Senioridade do time é baixa. 
 
 R: _Microkernel_
