@@ -162,3 +162,5 @@ Foi proposta por Alistair Cockburn, visa criar sistemas de software que sejam al
 ---
 ### Comparação entre estilos (Clean Arch x Hexagonal x Onion)
 Layered é criticada por focar em banco de dados, causando dependências transitivas, limites confusos e dificuldades na manutenção e testes. Já a arquitetura hexagonal prioriza a lógica de negócio, desenvolvendo-a antes da persistência dos dados. Ela se adapta melhor a aplicativos complexos com componentes adicionais, como APIs REST, evitando dependências excessivas e duplicação da lógica de negócios.
+
+A Arquitetura Limpa coloca a lógica de negócios no centro, com adaptadores de interface ao redor conectando a interface do usuário, banco de dados e outros componentes externos. Todas as dependências do código apontam para o núcleo, seguindo o Princípio de Inversão de Dependência. Arquitetura Hexagonal mapeia-se quase diretamente para a Arquitetura Limpa.
