@@ -197,7 +197,9 @@ ferramenta de gestão de projeto, o que seria
 interessante ter nela? 
 
 O budget para implementar é relativamente baixo
+
 Deve permitir adicionar novas funcionalidades
+
 Senioridade do time é baixa. 
 
 R: _Microkernel_
@@ -209,3 +211,63 @@ Projeto pessoal/MVP
 Budget baixo
 
 R: _Mvc e monólito_
+
+---
+### Padrões Arquiteturais
+São soluções recorrentes para problemas específicos de design em um contexto arquitetural. Eles são mais específicos que estilos arquiteturais e fornecem detalhes sobre a implementação.
+
+ - Solucionam problemas especificos.
+ -  Guias de implementação.
+ -  Reutilização de soluções.
+
+## MVC - Model, View e Controller.
+É um padrão de design de software que separa uma aplicação em três partes principais:
+### 1° Model (Modelo):
+  - Representa os dados e a lógica de negócios.
+  - Gerencia o comportamento e os dados da aplicação.
+### 2° View (Visão):
+  - Apresenta os dados ao usuário.
+  - Atualiza a interface do usuário quando o modelo muda.
+### 3° Controller (Controlador):
+  - Recebe a entrada do usuário.
+  - Interage com o modelo e seleciona a visão para apresentar a saída.
+
+### Beneficios:
+  - Separação de preocupações: Facilita a manutenção e a escalabilidade
+  - Reutilização de código: Componentes podem ser reutilizados em diferentes partes da aplicação.
+
+---
+## Plug-ins
+Núcleo e plug-ins ou extensões que adicionam funcionalidades. O núcleo fornece a base e a infraestrutura, enquanto os plug-ins fornecem funcionalidades específicas.
+
+Alguns locais citam como estilo arquitetural, porém partilho da visão de que ela como solução não possui "tamanho" suficiente para ser um estilo completo, se enquadrando como padrão que pode ser composto em estilos arquiteturais como o Layered e Componend-based.
+
+
+Exemplos: Navegadores, IDE’s como Eclipse
+
+[artigo que aborta mais profundamente](https://medium.com/omarelgabrys-blog/plug-in-architecture-dec207291800).
+
+---
+## Three-tier
+A arquitetura de três camadas é um modelo de arquitetura de software que separa uma aplicação em três camadas físicas distintas: a camada de apresentação (Presentation Tier), a camada de lógica de negócios (Business Logic Tier), e a camada de dados (Data Tier). 
+
+Essas camadas são distribuídas em diferentes servidores ou máquinas para melhorar a escalabilidade, a segurança e a manutenibilidade do sistema.
+
+### Beneficios:
+ - Escalabilidade
+ - Segurança
+ - Manutenibilidade
+ - Flexibilidade e reutilização
+
+---
+## Publisher-subscriber
+Padrão arquitetural que permite que os sistemas de software se comuniquem de forma assíncrona e desacoplada. Nesse modelo, os componentes de software são divididos em dois principais papéis: publicadores (publishers) e assinantes (subscribers). Esse padrão é amplamente utilizado em sistemas distribuídos e arquiteturas orientadas a eventos.
+
+### Beneficios:
+ - Desacoplamento: Publishers e subscribers são desacoplados, permitindo que componentes do sistema evoluam independentemente.
+ - Escalabilidade: Facilita a escalabilidade, pois múltiplos subscribers podem receber a mesma mensagem sem aumentar a carga no publisher.
+ - Flexibilidade: Suporta diversos padrões de comunicação (um-para-n, n-para-n).
+
+---
+### Como escolher o padrão correto?
+O que faça mais sentido com o estilo, ou estilos de arquitetura utilizados no projeto. Podemos ter um certo relacionamento entre os estilos e seus padrões que possuem mais sinergia.
