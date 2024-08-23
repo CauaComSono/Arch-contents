@@ -84,7 +84,7 @@ Se refere a uma divisão lógica da sua aplicação, sendo normalmente executada
   Exemplo: [10 exemplos de utilização de EDA no setor de logística](https://nexocode.com/blog/posts/event-driven-architecture-examples-in-logistics-apache-kafka-to-handle-supply-chain-network/) (Utilizando o Apache Kafka)
   
 ---
-### Mikroernel
+### Microkernel
 Estilo arquitetural que busca manter o núcleo do sistema o mais simples e reduzido possível, delegando a maioria das funcionalidades para módulos ou serviços externos adicionados ao núcleo.
 
 ### Características:
@@ -178,3 +178,34 @@ Esse modelo permite que os desenvolvedores se concentrem mais na lógica de neg�
 ### Características:
   - Execução sob demendam, escabilidade automática
   - Custo-eficiência, gerenciamento simplificada.
+### Funções como Serviço (FaaS)
+ - AWS Lambda, Google Cloud Functions, e Azure Functions.
+### BackEnd como Serviço (BaaS)
+ - Firebase authentication, FireStore e Amazon S3
+
+   Podemos encontrar muitos dos conceitos no [artigo de Mike Roberts](https://martinfowler.com/articles/serverless.html).
+
+---
+# Qual o estilo arquitetural correto?
+Depende...
+Temos de levar em conta o problema que queremos resolver, budget do projeto, senioridade do time, isso também vale para quando buscamos alterar o estilo atual.
+
+---
+
+1º - Quero criar uma nova aplicação web, uma
+ferramenta de gestão de projeto, o que seria
+interessante ter nela? 
+
+O budget para implementar é relativamente baixo 
+Deve permitir adicionar novas funcionalidades 
+Senioridade do time é baixa. 
+
+R: _Microkernel_
+
+---
+2º Quero fazer uma API simples com Spring para o PDV de uma loja, qual a melhor escolha?
+
+Projeto pessoal/MVP
+Budget baixo
+
+R: _Mvc e monólito_
