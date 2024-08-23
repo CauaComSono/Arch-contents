@@ -164,3 +164,17 @@ Foi proposta por Alistair Cockburn, visa criar sistemas de software que sejam al
 Layered é criticada por focar em banco de dados, causando dependências transitivas, limites confusos e dificuldades na manutenção e testes. Já a arquitetura hexagonal prioriza a lógica de negócio, desenvolvendo-a antes da persistência dos dados. Ela se adapta melhor a aplicativos complexos com componentes adicionais, como APIs REST, evitando dependências excessivas e duplicação da lógica de negócios.
 
 A Arquitetura Limpa coloca a lógica de negócios no centro, com adaptadores de interface ao redor conectando a interface do usuário, banco de dados e outros componentes externos. Todas as dependências do código apontam para o núcleo, seguindo o Princípio de Inversão de Dependência. Arquitetura Hexagonal mapeia-se quase diretamente para a Arquitetura Limpa.
+
+Arquitetura Limpa pode ser vista comouma evolução da Arquitetura Onion e Hexagonal, devido à sua abordagem mais detalhada e abrangente para a organização de sistemas de software.
+
+A Arquitetura Limpa refina e expande os conceitos da Arquitetura Hexagonal, oferecendo uma estrutura clara e sistemática para a construção de aplicações desacopladas, modulares e testáveis.
+
+---
+# Serverless
+Arquitetura serverless é um modelo de computação em nuvem onde os provedores de nuvem gerenciam a execução do código, alocando dinamicamente os recurso necessários.
+
+Esse modelo permite que os desenvolvedores se concentrem mais na lógica de negócios e menos na infaestrutura, uma vez que tudo isso é rseponsabilidade do provedor de serviços de nuvem.
+
+### Características:
+  - Execução sob demendam, escabilidade automática
+  - Custo-eficiência, gerenciamento simplificada.
