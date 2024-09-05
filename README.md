@@ -334,4 +334,20 @@ Características:
  - Ponto de acesso global: Fornece uma forma globalde acessar essa instância única.
 
 [Refactoring Guru](https://refactoring.guru/design-patterns). Pode ajudar muito nos estudos
- 
+
+Resolve problema de uma única classe.
+
+---
+## Abstract Factory
+Padrão que permite criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. 
+
+Ele define uma interface para criar diferentes tipos de objetos (como botões e checkboxes), permitindo que o cliente trabalhe com essas famílias de objetos de forma independente de suas implementações específicas.
+
+Características:
+
+ - Criação de famílias de objetos: Permite criar grupos de objetos relacionados que devem ser usados juntos.
+ - Independência de implementação: O cliente usa interfaces abstratas, sem saber quais classes concretas estão sendo instanciadas.
+ - Flexibilidade: Facilita a troca entre diferentes famílias de objetos, como mudar a interface do usuário de Windows para macOS sem alterar o código cliente.
+
+Ele instancia várias fámilias de classes de uma única vez;
+Definimos uma interface chamada Factory;
