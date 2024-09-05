@@ -271,3 +271,67 @@ Padrão arquitetural que permite que os sistemas de software se comuniquem de fo
 ---
 ### Como escolher o padrão correto?
 O que faça mais sentido com o estilo, ou estilos de arquitetura utilizados no projeto. Podemos ter um certo relacionamento entre os estilos e seus padrões que possuem mais sinergia.
+
+---
+# Design Patterns (Padrões de projeto - Padrões criacionais)
+
+---
+## Visão Geral
+Padrões de projeto são soluções criadas, já testadas, estruturadas e documentadas por outros desenvolvedores.
+
+Citação: "_Design Patterns are descriptions of communicating objects and classes that are customized to solve a general design problem in a particular context._"
+- Gamma et al., 1995, p. 3
+
+---
+Os padrões de projeto são isso, eles dão um norte para resolvermos o problema.
+
+Cristopher Alexander mapeou e compreendeu que existiam padrões para vários problemas encontrados.
+
+Um padrão é uma regra de três partes, queexpressa uma relação entre um determinado contexto, um problema e uma solução.
+
+---
+
+De posse desses conhecimentos em 1995 Erich Gamma, John Vlissides, Ralph Johnson e Richard Helm publicaram “Design Patterns: Elements of Reusable Object-Oriented Software”, onde foram descritos 23 padrões que resolviam vários problemas de design orientado a objetos e se tornou um best-seller muito rapidamente. Devido ao seu nome ser muito extenso o livro foi batizado de GoF (Gang of Four).
+
+## Beneficios
+
+### Reutilização de código
+Design patterns promoveram a reutilização de soluções testadas, evitando a necessidade de "reinventar a roda" e economizando tempo durante o desenvolvimento.
+
+### Manutenção
+O uso de padrões facilita a manutenção do código, pois as soluções são reconhecíveis e compreendidas por desenvolvedores familiarizados com os padrões.
+
+### Comunicação
+Ao usar design patterns, desenvolvedores podem se comunicar de maneira mais eficiente, referindo-se a uma solução complexa com um nome simples e amplamente compreendido, como "Factory Method" ou "Observer".
+
+### Escabilidade e flexibilidade
+Ajudam a criar sistemas facilmente  estendidos ou modificados à medida que novos requisitos surgem.
+
+---
+## Onde não usar?
+Mesmo sendo muito úteis, eles não devem ser aplicados de maneira discriminada:
+
+  - Complexidade desnecessária: Aplicar um pattern em um problema que pode ser resolvido com uma solução mais simples pode adicionar complexidade desnecessária no código.
+  - Problemas mal definidos: Não tente forçar um padrão em um problema que não é claramente compreendido. Primeiro, compreenda completamente o problema antes de buscar uma solução padrão.
+  - Overengineering: Evite overengineering, que é a tendência de criar uma solução mais complexa do que o necessário, por aplicar padrões de design onde não são necessários.
+---
+### Três categorias de Patterns
+ - Criacionais: Tratam do processo de criação de objetos, promovendo a flexibilidade e a reutilização de código. Ajudam a gente a instanciar.
+ - Estruturais: Lidam com a composição de classes ou objetos, formando estruturas maiores de forma eficiente.
+ - Comportamentais: Lidam com a comunicação entre os objetos e com a maneira como eles se interagem e suas rensponsabilidades.
+
+---
+
+## Singleton
+É um padrão de design criacional que garante que uma classe tenha apenas uma única instância e fornece um ponto global de acesso a essa instância.
+
+Ele é útil em situações onde é importante que apenas um objeto de uma classe seja criado, como em gerenciadores de recursos, conexões de banco de dados ou configurações globais de uma aplicação.
+
+Características:
+
+ - Única instância: Apenas uma instância da classe é criada durante o ciclo de vida da aplicação.
+ - Controle de acesso: A classe controla como e quando sua única instância é criada.
+ - Ponto de acesso global: Fornece uma forma globalde acessar essa instância única.
+
+[Refactoring Guru](https://refactoring.guru/design-patterns). Pode ajudar muito nos estudos
+ 
