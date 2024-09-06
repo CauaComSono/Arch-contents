@@ -351,3 +351,38 @@ Características:
 
 Ele instancia várias fámilias de classes de uma única vez;
 Definimos uma interface chamada Factory;
+
+---
+## Factory Method 
+Define um método para criar objetos em uma classe, permitindo que as subclasses decidam qual classe concreta será instanciada.
+
+Em vez de instanciar objetos diretamente com new, o Factory Method delega essa responsabilidade para métodos especializados, oferecendo flexibilidade para criar diferentes tipos de objetos.
+
+Características :
+
+ - Delegação da criação: Define um método para criar objetos, delegando às subclasses a decisão de qual classe concreta instanciar.
+ - Desacoplamento: Desacopla a criação de objetos da sua utilização, facilitando a adição de novas classes sem modificar o código existente.
+ - Flexibilidade: Permite que uma classe defina a interface de criação, enquanto subclasses concretas implementam a lógica específica para diferentes tipos de produtos.
+
+---
+## Prototype
+Permite criar novos objetos copiando instâncias existentes (protótipos), ao invés de instanciar novos objetos do zero. 
+
+Ele é útil quando a criação direta de um objeto é cara (em termos de tempo ou recursos) ou quando você deseja evitar subclasses para criar diferentes instâncias.
+
+Características:
+
+ - Clonagem de objetos: Cria novos objetos copiando (clonando) instâncias existentes, sem depender de classes concretas.
+ - Flexibilidade: Permite criar objetos complexos com uma configuração inicial específica, evitando a repetição de código ou configurações.
+ - Independência de implementação: Você pode criar novos objetos sem depender de suas classes concretas, utilizando cópias de protótipos existentes.
+
+---
+
+## Builder 
+Permite a construção de objetos complexos passo a passo. Ele separa o processo de construção do objeto da sua representação, permitindo criar diferentes representações do mesmo objeto.
+
+Características:
+
+ - Construção passo a passo: Permite criar objetos complexos em etapas, adicionando um nível de controle sobre o processo de construção.
+ - Separação de preocupações: Separa a lógica de construção do objeto (Builder) de sua representação final, permitindo que o mesmo processo construa diferentes tipos de objetos.
+ - Flexibilidade: Facilita a criação de objetos com configurações variadas sem precisar de múltiplos construtores ou parâmetros opcionais.
