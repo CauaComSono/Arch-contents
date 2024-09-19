@@ -386,3 +386,47 @@ Características:
  - Construção passo a passo: Permite criar objetos complexos em etapas, adicionando um nível de controle sobre o processo de construção.
  - Separação de preocupações: Separa a lógica de construção do objeto (Builder) de sua representação final, permitindo que o mesmo processo construa diferentes tipos de objetos.
  - Flexibilidade: Facilita a criação de objetos com configurações variadas sem precisar de múltiplos construtores ou parâmetros opcionais.
+
+---
+## Padrões de projetos estruturais
+
+São descritas como soluções para problemas relacionados à composição de classes e objetos para formar estruturas maiores e mais flexíveis. 
+
+Esses padrões ajudam a organizar e otimizar o design de sistemas de software, facilitando como os componentes interagem e se conectam.
+
+Principais benefícios:
+ - Flexibilidade na composição de objetos
+ - Desacoplamento
+ - Manutenção e extensão
+ - Simplificação de complexidade
+
+---
+Citação:
+ "_Structural patterns deal with object composition, creating relationships between objects to form larger structures. These patterns help ensure that if one part of a system changes the entire system does not need to change. They simplify the design by decoupling components, making the system more flexible and easier to maintain._" - Gamma et al., 1995, p. 25-26
+
+ ---
+
+ ### Adapter 
+ Permite que interfaces incompatíveis trabalhem juntas. Ele converte a interface de uma classe em outra interface esperada pelos clientes. 
+
+Assim, o Adapter atua como um intermediário que traduz as chamadas feitas pelo cliente para a interface da classe que não é compatível.
+
+Usado quando é necessário integrar sistemas legados com novos sistemas ou quando se deseja adaptar uma API para uma nova interface.
+
+---
+### Bridge
+Desacopla uma abstração da sua implementação, permitindo que ambas evoluam independentemente. 
+
+É usado quando você quer separar uma abstração (a ideia principal ou conceito) de sua implementação concreta (a forma como o conceito é realizado). Isso é útil para evitar que mudanças em uma parte da estrutura (como uma classe) causem impacto na outra parte.
+
+---
+### Composite
+Permite que você trate objetos individuais e composições de objetos de forma uniforme.
+
+Isso é útil quando você tem uma estrutura hierárquica de objetos, como uma árvore, onde cada nó pode ser um objeto simples ou um grupo de objetos.
+
+Usado quando precisar representar hierarquias de objetos, como estruturas de diretórios dearquivos ou interfaces gráficas complexas.
+
+---
+### Decorator
+Permite adicionar responsabilidades a um objeto dinamicamente, sem alterar o código da classe original. Ele usa um conjunto de classes de decoração que envolvem o objeto original, adicionando funcionalidades adicionais. Utilizado para adicionar funcionalidades a objetos de maneira flexível e extensível, como adicionar estilos de janela em um sistema de GUI.
